@@ -6,6 +6,7 @@ body{
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(245,245,245);
 }
 .App {
   text-align: center;
@@ -24,4 +25,15 @@ body{
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  margin:5em auto;
+  text-align: center;
+}
+.nav-container{
+  margin:auto;
+}
+a{
+  text-decoration: none;
 }
