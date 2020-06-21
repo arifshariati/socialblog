@@ -31,8 +31,31 @@ const theme = createMuiTheme({
       contrastText:'#fff'
     }
   },
-  typography:{
-    useNextVariants: true
+  spreadThis:{
+    typography:{
+      useNextVariants: true
+    },
+    card:{
+      padding:'2em',
+      margin:'2em auto'
+    },
+    form:{
+        textAlign:'center',
+    },
+    textField:{
+        marginTop:'2em'
+    },
+    button:{
+        marginTop:'3em',
+        position:'relative'
+    },
+    customError:{
+        color:'red',
+        marginTop:'1em'
+    },
+    progress:{
+        position:'absolute'
+    }
   }
 })
 function App() {
